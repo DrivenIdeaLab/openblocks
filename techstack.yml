@@ -1,0 +1,3023 @@
+repo_name: DrivenIdeaLab/openblocks
+report_id: 6e91f0cf7ff46e9fa65cede258414dc4
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T18:00:43+00:00'
+requested_by: gitbook-bot
+provider: github
+branch: develop
+detected_tools_count: 225
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/docker/docker-compose.yaml
+  detection_source: deploy/docker/docker-compose.yaml
+  last_updated_by: Ludo Mikula
+  last_updated_on: 2023-01-08 14:50:13.000000000 Z
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: YAML
+  description: A straightforward machine parsable data serialization format designed
+    for human readability and interaction
+  website_url: http://www.yaml.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1744/yaml.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/package.json
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.22.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 06:49:43.000000000 Z
+- name: ECharts
+  description: A free, powerful charting and visualization library
+  website_url: https://echarts.apache.org/en/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/4230/aSzYQa43_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/package.json
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 4.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/package.json
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: QueryDSL
+  description: Unified queries for Java
+  website_url: http://www.querydsl.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/3881/da8da0c0e6dfbfc596f787ade49381a6_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-cli/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-28 08:37:08.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: redux-saga
+  description: An alternative side effect model for Redux apps
+  website_url: https://redux-saga.github.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/package.json
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/docker/docker-compose.yaml
+  detection_source: deploy/docker/docker-compose.yaml
+  last_updated_by: Ludo Mikula
+  last_updated_on: 2023-01-08 14:50:13.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/package.json
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-02 10:29:11.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/package.json
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-01 09:39:01.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 13.6.2
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/helm/Chart.yaml
+  detection_source: deploy/docker/docker-compose.yaml
+  last_updated_by: ludomikula
+  last_updated_on: 2023-01-21 21:48:27.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mysqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mysqlPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 17.0.10
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/helm/Chart.yaml
+  detection_source: deploy/docker/docker-compose.yaml
+  last_updated_by: ludomikula
+  last_updated_on: 2023-01-21 21:48:27.000000000 Z
+- name: Snowflake
+  description: The data warehouse built for the cloud
+  website_url: https://www.snowflake.net/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Big Data as a Service
+  image_url: https://img.stackshare.io/service/5889/default_768181e102486f7411fe5f997dac1328d057c2cf.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/snowflakePlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/snowflakePlugin/pom.xml
+  last_updated_by: chengluo
+  last_updated_on: 2023-02-21 11:03:35.000000000 Z
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: chengluo
+  last_updated_on: 2023-02-17 11:10:37.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/package.json
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/.eslintrc
+  detection_source: client/packages/openblocks/.eslintrc
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-15 06:40:40.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: neon-balcony
+  last_updated_on: 2023-02-21 11:57:16.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/docker/frontend/nginx.conf
+  detection_source: deploy/docker/frontend/nginx.conf
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks-cli-template-typescript/package.json
+  detection_source: client/packages/openblocks-cli-template-typescript/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-08 03:35:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/package.json
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/src/test/resources/application.yml
+  detection_source: server/api-service/openblocks-domain/src/test/resources/application.yml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/packages/openblocks/package.json
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: JSONPath
+  website_url: http://goessner.net/articles/JsonPath/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4623/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/package.json
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-core/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-12-03 02:44:44.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/deploy/docker/docker-compose.yaml
+  detection_source: deploy/docker/docker-compose.yaml
+  last_updated_by: ludomikula
+  last_updated_on: 2023-01-21 21:48:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-cli/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/package.json
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+  vulnerabilities:
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: ua-parser-js
+  description: Lightweight JavaScript-based user-agent string parser
+  package_url: https://www.npmjs.com/ua-parser-js
+  version: 0.7.31
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17510/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-09 08:19:15.000000000 Z
+  vulnerabilities:
+  - name: ReDoS Vulnerability in ua-parser-js version
+    cve_id: CVE-2022-25927
+    cve_url: https://github.com/advisories/GHSA-fhg7-m89q-25r3
+    detected_date: Jan 25
+    severity: high
+    first_patched: 0.7.33
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 3.2.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-cli-template-typescript/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-28 08:37:08.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 3.2.7
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 3.2.10
+- name: xlsx
+  description: SheetJS Spreadsheet data parser and writer
+  package_url: https://www.npmjs.com/xlsx
+  version: 0.18.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+  vulnerabilities:
+  - name: SheetJS Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-22363
+    cve_url: https://github.com/advisories/GHSA-5pgg-2g8v-p4x9
+    detected_date: Apr 9
+    severity: high
+    first_patched: 0.20.2
+  - name: Prototype Pollution in sheetJS
+    cve_id: CVE-2023-30533
+    cve_url: https://github.com/advisories/GHSA-4r6h-8v6p-xvw6
+    detected_date: Apr 25
+    severity: high
+    first_patched: 0.19.3
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@fortawesome/free-regular-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-regular-svg-icons
+  version: 6.2.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18157/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-15 12:03:25.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 6.2.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: "@google-cloud/storage"
+  description: Cloud Storage Client Library for Node.js
+  package_url: https://www.npmjs.com/@google-cloud/storage
+  version: 6.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17753/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: Esieve
+  last_updated_on: 2023-03-07 03:07:00.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 14.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-core/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@svgr/rollup"
+  description: SVGR Rollup plugin
+  package_url: https://www.npmjs.com/@svgr/rollup
+  version: 6.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16364/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-design/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/core-js"
+  description: TypeScript definitions for core-js
+  package_url: https://www.npmjs.com/@types/core-js
+  version: 2.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16420/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 06:49:43.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-02 12:01:04.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 28.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.178
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 06:49:43.000000000 Z
+- name: "@types/mime"
+  description: TypeScript definitions for mime
+  package_url: https://www.npmjs.com/@types/mime
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18274/default_7a7ed285fac4b842f0d8c3991804954d9db6b793.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@types/morgan"
+  description: TypeScript definitions for morgan
+  package_url: https://www.npmjs.com/@types/morgan
+  version: 1.9.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18064/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-02 12:01:04.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 06:49:43.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-08 03:35:50.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.48
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-comps/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-comps/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: "@types/shelljs"
+  description: TypeScript definitions for ShellJS
+  package_url: https://www.npmjs.com/@types/shelljs
+  version: 0.8.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16927/default_243de814aae175a383b2d9fba99487a89879acdb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: "@types/styled-components"
+  description: TypeScript definitions for styled-components
+  package_url: https://www.npmjs.com/@types/styled-components
+  version: 5.1.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 8.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 06:49:43.000000000 Z
+- name: ali-oss
+  description: Aliyun oss
+  package_url: https://www.npmjs.com/ali-oss
+  version: 6.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17748/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.22.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: antd-mobile
+  description: 基于 React 的移动设计规范实现
+  package_url: https://www.npmjs.com/antd-mobile
+  version: 5.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18235/default_950c270c4c8944606f2f09fbe7f322c8c9164018.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-23 07:00:14.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 29.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: babel-preset-react-app
+  description: Babel preset used by Create React App
+  package_url: https://www.npmjs.com/babel-preset-react-app
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16089/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: big.js
+  description: A small
+  package_url: https://www.npmjs.com/big.js
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17724/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-comps/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-01-05 06:10:10.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/create-openblocks-plugin/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: copyfiles
+  description: Copy some files
+  package_url: https://www.npmjs.com/copyfiles
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 06:27:15.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/create-openblocks-plugin/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-01-18 10:58:55.000000000 Z
+- name: eslint-config-react-app
+  description: ESLint configuration used by Create React App
+  package_url: https://www.npmjs.com/eslint-config-react-app
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: file-saver
+  description: An HTML5 saveAs
+  package_url: https://www.npmjs.com/file-saver
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: firebase-admin
+  description: Firebase admin SDK for Node.js
+  package_url: https://www.npmjs.com/firebase-admin
+  version: 11.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17151/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-02 10:29:11.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/create-openblocks-plugin/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: github-markdown-css
+  description: The minimal amount of CSS to replicate the GitHub Markdown style
+  package_url: https://www.npmjs.com/github-markdown-css
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17585/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: graphql-request
+  description: "[![CircleCI]"
+  package_url: https://www.npmjs.com/graphql-request
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18362/default_c13193d39b06aca7675079cf8440e70e9150db5e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-01 09:39:01.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: immer
+  description: Create your next immutable state by mutating the current one
+  package_url: https://www.npmjs.com/immer
+  version: 9.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 29.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: jsonpath
+  description: Query JavaScript objects with JSONPath expressions
+  package_url: https://www.npmjs.com/jsonpath
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17674/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-02-28 08:39:53.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: loglevel
+  description: Minimal lightweight logging for JavaScript
+  package_url: https://www.npmjs.com/loglevel
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17004/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 5.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-core/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-12-03 02:44:44.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-02-09 10:31:33.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-08 03:35:50.000000000 Z
+- name: papaparse
+  description: Fast and powerful CSV parser for the browser that supports web workers
+    and streaming large files
+  package_url: https://www.npmjs.com/papaparse
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17945/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2023-02-09 08:19:15.000000000 Z
+- name: pino
+  description: Super fast, all natural json logger
+  package_url: https://www.npmjs.com/pino
+  version: 8.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-03-01 04:32:03.000000000 Z
+- name: prom-client
+  description: Client for prometheus
+  package_url: https://www.npmjs.com/prom-client
+  version: 14.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18412/default_863e53b96f84b4092f7c0ba36b8cee4bf60d33fe.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 03:08:41.000000000 Z
+- name: rc-trigger
+  description: Base abstract trigger component for react
+  package_url: https://www.npmjs.com/rc-trigger
+  version: 5.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18150/default_fc035aee6c6c5a29ef1d44ead449f021e2f0563f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-cli/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-28 08:37:08.000000000 Z
+- name: react-draggable
+  description: React draggable component
+  package_url: https://www.npmjs.com/react-draggable
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17422/default_90854c53afd40e0b32cb5e4d62d6bbc2214e0f62.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-design/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-resizable
+  description: A component that is resizable with handles
+  package_url: https://www.npmjs.com/react-resizable
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18447/default_ce264c1dd64cc60a7887273861f96d765d5ebde0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 18.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-07 08:44:27.000000000 Z
+- name: react-virtualized
+  description: React components for efficiently rendering large
+  package_url: https://www.npmjs.com/react-virtualized
+  version: 9.22.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16918/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-design/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-15 12:03:25.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-15 12:03:25.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-design/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: resize-observer-polyfill
+  description: A polyfill for the Resize Observer API
+  package_url: https://www.npmjs.com/resize-observer-polyfill
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17168/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: ggbond
+  last_updated_on: 2022-12-22 13:57:08.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: rollup-plugin-node-builtins
+  description: Use node builtins in browser with rollup
+  package_url: https://www.npmjs.com/rollup-plugin-node-builtins
+  version: 2.1.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16598/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-sdk/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-28 08:39:38.000000000 Z
+- name: rollup-plugin-node-globals
+  description: Insert the same globals browserify does
+  package_url: https://www.npmjs.com/rollup-plugin-node-globals
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17046/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-sdk/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-28 08:37:08.000000000 Z
+- name: rollup-plugin-terser
+  description: Rollup plugin to minify generated es bundle
+  package_url: https://www.npmjs.com/rollup-plugin-terser
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-design/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: rollup-plugin-typescript
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16445/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks-sdk/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-14 06:52:15.000000000 Z
+- name: rollup-plugin-visualizer
+  description: "[![NPM Version]"
+  package_url: https://www.npmjs.com/rollup-plugin-visualizer
+  version: 5.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17643/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-20 08:29:21.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: toposort
+  description: Topological sort of directed ascyclic graphs
+  package_url: https://www.npmjs.com/toposort
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18596/default_55de6ace9cdf0f7af912c7c7eb48f59adcc3fa59.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sunlei
+  last_updated_on: 2023-01-13 08:11:00.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/node-service/yarn.lock
+  detection_source: server/node-service/package.json
+  last_updated_by: sarike
+  last_updated_on: 2023-03-08 03:35:50.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/packages/openblocks/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/client/yarn.lock
+  detection_source: client/package.json
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: 42.3.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.3.9
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.3.9
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '31.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.auth0:java-jwt
+  description: Java implementation of JSON Web Token
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-server/pom.xml
+  detection_source: server/api-service/openblocks-server/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-parameter-names
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: chengluo
+  last_updated_on: 2023-02-17 11:10:37.000000000 Z
+- name: com.github.ben-manes.caffeine:caffeine
+  description: A high performance caching library for Java 8+
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.github.spullara.mustache.java:compiler
+  description: Implementation of mustache.js for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: com.google.api-client:google-api-client
+  description: Google APIs Client Library for Java
+  version: 1.31.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.google.auth:google-auth-library-oauth2-http
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.google.oauth-client:google-oauth-client-jetty
+  description: Google OAuth Client Library for Java
+  version: 1.30.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mssqlPlugin/pom.xml
+  last_updated_by: chengluo
+  last_updated_on: 2023-03-22 07:04:49.000000000 Z
+- name: com.querydsl:querydsl-apt
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.querydsl:querydsl-jpa
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/clickHousePlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/clickHousePlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.micrometer:micrometer-core
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.netty:netty-codec-http
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/smtpPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/smtpPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.netty:netty-resolver
+  description: Netty project - an event-driven asynchronous network application framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: io.projectreactor:reactor-core
+  description: Non-Blocking Reactive Foundation for the JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: chengluo
+  last_updated_on: 2023-02-17 11:10:37.000000000 Z
+- name: io.projectreactor:reactor-test
+  description: Reactor Test support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: javax.activation:activation
+  description: The JavaBeans
+  license: CDDL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: javax.el:javax.el-api
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-15 07:05:37.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.5.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/smtpPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/smtpPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-server/pom.xml
+  detection_source: server/api-service/openblocks-server/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 8.0.29
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mysqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mysqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-02-16 06:32:49.000000000 Z
+- name: net.minidev:json-smart
+  description: JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.13.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/googleSheetsPlugin/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.eclipse.jgit:org.eclipse.jgit
+  description: Repository access and algorithms
+  license: AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.elasticsearch.client:elasticsearch-rest-client
+  description: Elasticsearch subproject :client:rest
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/elasticSearchPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/elasticSearchPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.hibernate.validator:hibernate-validator
+  description: Hibernate's Bean Validation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/pom.xml
+  detection_source: server/api-service/openblocks-plugins/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.jgrapht:jgrapht-core
+  description: Master repository for the JGraphT project
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.mockito:mockito-inline
+  description: Mockito preconfigured inline mock maker
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.mongodb:mongodb-driver-reactivestreams
+  description: The MongoDB Reactive Streams Driver
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/mongoPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/mongoPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.powermock:powermock-api-mockito2
+  description: PowerMock API for Mockito 2.+.
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.boot:spring-boot
+  description: Spring Boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: org.springframework.boot:spring-boot-autoconfigure
+  description: Spring Boot AutoConfigure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-03 04:25:43.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-sdk/pom.xml
+  detection_source: server/api-service/openblocks-sdk/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2023-03-15 07:05:37.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-mongodb
+  description: Starter for using MongoDB document-oriented database and Spring Data
+    MongoDB
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-server/pom.xml
+  detection_source: server/api-service/openblocks-server/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.data:spring-data-mongodb
+  description: MongoDB support for Spring Data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-infra/pom.xml
+  detection_source: server/api-service/openblocks-infra/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-server/pom.xml
+  detection_source: server/api-service/openblocks-server/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.security:spring-security-crypto
+  description: Spring-security-crypto
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-domain/pom.xml
+  detection_source: server/api-service/openblocks-domain/pom.xml
+  last_updated_by: jerry-goodman
+  last_updated_on: 2023-02-23 07:36:12.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.springframework:spring-web
+  description: Spring Web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.springframework:spring-webflux
+  description: Spring WebFlux
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/graphqlPlugin/pom.xml
+  last_updated_by: lvhuichao
+  last_updated_on: 2022-12-06 06:58:49.000000000 Z
+- name: org.testcontainers:postgresql
+  description: Testcontainers is a Java library that supports JUnit tests
+  version: 1.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/postgresPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  version: 1.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/clickHousePlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/clickHousePlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
+- name: redis.clients:jedis
+  description: Jedis is a blazingly small and sane Redis java client
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/openblocks/blob/develop/server/api-service/openblocks-plugins/redisPlugin/pom.xml
+  detection_source: server/api-service/openblocks-plugins/redisPlugin/pom.xml
+  last_updated_by: hanshuai
+  last_updated_on: 2022-11-14 10:00:03.000000000 Z
